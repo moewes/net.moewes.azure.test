@@ -79,6 +79,11 @@
         <groupId>com.amashchenko.maven.plugin</groupId>
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.15.0</version>
+          <configuration>
+            <gitFlowConfig>
+              <developmentBranch>master</developmentBranch>
+            </gitFlowConfig>
+          </configuration>
       </plugin>
       <plugin>
         <groupId>io.quarkus</groupId>
