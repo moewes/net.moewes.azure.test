@@ -81,6 +81,7 @@
         <version>1.15.0</version>
           <configuration>
             <allowSnapshots>true</allowSnapshots>
+            <pushRemote>true</pushRemote>
             <gitFlowConfig>
               <developmentBranch>master</developmentBranch>
             </gitFlowConfig>
