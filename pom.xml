@@ -80,6 +80,7 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.15.0</version>
           <configuration>
+            <allowSnapshots>true</allowSnapshots>
             <gitFlowConfig>
               <developmentBranch>master</developmentBranch>
             </gitFlowConfig>
